@@ -25,29 +25,7 @@ Training machine learning models (e.g., Logistic Regression, Random Forest)
 Model evaluation using accuracy, precision, recall, and F1-score
 Project Structure
 
-plaintext
-Copy code
-Titanic-Survival-Prediction/
-│
-├── data/
-│   └── train.csv                    # Training data
-│   └── test.csv                     # Test data
-│
-├── notebooks/
-│   └── EDA.ipynb                    # Exploratory Data Analysis notebook
-│   └── model_training.ipynb         # Model training and evaluation notebook
-│
-├── models/
-│   └── titanic_model.pkl            # Trained model (optional)
-│
-├── src/
-│   ├── data_preprocessing.py        # Data preprocessing functions
-│   ├── train_model.py               # Script to train the model
-│   └── predict.py                   # Script to make predictions
-│
-├── README.md                        # Project documentation
-├── requirements.txt                 # Python dependencies
-└── LICENSE                          # License file
+
 Dataset
 
 The dataset used in this project is the Titanic dataset from Kaggle. It contains the following key columns:
