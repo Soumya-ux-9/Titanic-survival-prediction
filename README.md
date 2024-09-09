@@ -76,22 +76,16 @@ Usage
 
 1. Data Preprocessing
 To preprocess the data and prepare it for model training:
-
-bash
-Copy code
 python src/data_preprocessing.py --input data/train.csv --output data/processed_data.csv
+
 2. Train the Model
 Train the Titanic survival prediction model:
-
-bash
-Copy code
 python src/train_model.py --input data/processed_data.csv --model_output models/titanic_model.pkl
+
 3. Predict
 Make predictions on new data using the trained model:
-
-bash
-Copy code
 python src/predict.py --model models/titanic_model.pkl --input data/test.csv
+
 Model
 
 Several machine learning algorithms are explored in this project, including:
