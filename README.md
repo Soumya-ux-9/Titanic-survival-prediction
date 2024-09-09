@@ -31,25 +31,13 @@ Dataset
 The dataset used in this project is the Titanic dataset from Kaggle. It contains the following key columns:
 
 Survived: 0 = No, 1 = Yes (target variable)
-Pclass: Passenger’s class (1 = 1st, 2 = 2nd, 3 = 3rd)
-Name, Sex, Age, SibSp, Parch, Fare: Various details about the passenger
-Embarked: Port of Embarkation (C = Cherbourg, Q = Queenstown, S = Southampton)
-Installation
 
-Clone the repository:
-bash
-Copy code
-git clone https://github.com/yourusername/Titanic-Survival-Prediction.git
-cd Titanic-Survival-Prediction
-Create and activate a virtual environment (optional but recommended):
-bash
-Copy code
-python3 -m venv venv
-source venv/bin/activate   # On Windows, use `venv\Scripts\activate`
-Install the required dependencies:
-bash
-Copy code
-pip install -r requirements.txt
+Pclass: Passenger’s class (1 = 1st, 2 = 2nd, 3 = 3rd)
+
+Name, Sex, Age, SibSp, Parch, Fare: Various details about the passenger
+
+Embarked: Port of Embarkation (C = Cherbourg, Q = Queenstown, S = Southampton)
+
 Usage
 
 1. Data Preprocessing
